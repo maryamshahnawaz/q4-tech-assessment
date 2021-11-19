@@ -55,7 +55,6 @@ img {
 #q4Wrapper a span {
   opacity: 0.5;
 }
-
 .layout_inner {
   max-width: 960px;
   margin: 0 auto;
@@ -73,3 +72,17 @@ img {
   justify-content: center;
   align-items: flex-start;
 }
+@media only screen and (max-width: 768px) {
+ #q4Wrapper article {
+  width: calc(45% - 10px);
+  margin: 15px;
+  }
+}
+@media only screen and (max-width: 500px) {
+  #q4Wrapper article  {
+    width:80%;
+  }
+  #q4Wrapper h1 {
+  font-size: 28px;
+  }
+} 
